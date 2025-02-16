@@ -120,5 +120,35 @@
     border: 0.5rem solid;
     border-color:red
 }
-
+/* Path: image rond.css */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    background: linear-gradient(to bottom , blue 50%, white 50%); /*Ici, 50% du haut sera bleu, et 50% du bas sera blanc.*/
+    box-shadow: 0px -9px 20px -3px rgba(0,0,0,0.75);
+    margin: 0 auto;
+    margin-top: 15px;
+    position : relative;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(images/mannequin1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    border: 5px solid white;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
